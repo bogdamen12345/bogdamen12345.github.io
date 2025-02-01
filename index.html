@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Лабораторная работа по физике 'Механическое движение' для 7 класса">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Троцюк Богдан">
+    <link rel="stylesheet" href="style.css">
+    <title>Лаб.работа по физике "Механическое движение" для 7 класса</title>
+</head>
+<body>
+    <header>
+        <h1>Лабораторная работа по физике для 7 класса</h1>
+        <h1>"Механическое движение"</h1>
+    </header>
+    <canvas class="canvas1" width="1440" height="400"></canvas>
+    <div class="car"><img src="img/car.png" alt="Машина"></div>
+    <article>
+        <div class="article">
+            <button class="buttons button1">Равномерное движение</button>
+            <button class="buttons button2">Ускоренное движение</button>
+            <button class="buttons button3">Замедленное движение</button>
+        </div>
+        <div class="speed">
+            <h2>Расчет скорости тела:</h2>
+            <div class="form">
+            <div class="puti">
+            <label for="text">Введите путь в метрах:</label>
+            <input class="inputs metr" type="text">
+            </div>
+            <div class="vremya">
+            <label for="text">Введите время в секундах:</label>
+            <input class="inputs secunda" type="text">
+            </div>
+            <div class="raschet">
+            <input class="button" type="button" value="Рассчитать">
+            <input class="inputs resultat" type="text">
+            </div>
+            </div>
+        </div>
+    </article>
+    <script src="anime.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:space-evenly;
+    background-color: #519A2C;
+    padding: 15px 15px;
+    color:white;
+    font-family: "Pacifico", serif;
+}
+.buttons{
+    display:block;
+}
+.speed{
+    padding:50px;
+    width: 650px;
+    background-color:rgb(201, 200, 200);
+    border-radius:50px;
+
+}
+.inputs{
+    padding:10px 0;
+    border-radius: 10px;
+}
+.button{
+    padding: 10px 30px;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 30px;
+    background: green;
+    font: inherit;
+    color: #fff;
+}
+.buttons{
+    padding: 10px 30px;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 10px;
+    background: rgb(177, 176, 176);
+    font: inherit;
+    color: black;
+    margin-top:18px;
+}
+article{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+    font-family: "Roboto", serif;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:50px;
+    margin-top:50px;
+}
+.form div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background{
+    width: 1500px;
+    height:400px;
+    background-color: rgb(181, 177, 177);
+}
+.car{
+    position: absolute;
+    top:330px;
+    left:100px;
+
+}
